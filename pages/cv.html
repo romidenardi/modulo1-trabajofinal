@@ -4,19 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Romina Denardi | CV</title>
-    <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/general.css">
     <link rel="stylesheet" href="../styles/cv.css">
 </head>
 <body>
     <header>
-
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid d-flex flex-column flex-lg-row align-items-center position-relative">
+                <h1 class="mb-0 w-100 w-lg-auto text-center text-lg-start"><a class="navbar-brand  d-block titulo" href="../index.html">Romina Denardi</a></h1>
+                    <span class="navbar-text d-block d-lg-none text-center subtitulo">Portfolio</span>
+                    <span class="navbar-text position-absolute top-50 start-50 translate-middle d-none d-lg-block subtitulo">Portfolio</span>           
+                <button class="navbar-toggler d-lg-none mx-auto boton-navegacion" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link link-menu" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-menu" href="../pages/cv.html">CV</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-menu" href="https://www.linkedin.com/in/rominadenardi/" target="_blank">LinkedIn</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-menu" href="https://github.com/romidenardi" target="_blank">GitHub</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-menu" href="../pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
     <main>
         <h2>Mi CV</h2>
         <section>
-            <h3>Experiencia laboral</h3>
+            <div class="encabezado-items-cv">
+                <img class="icono-cv" src="../assets/maletin.svg" alt="Maletín">
+                <h3>Experiencia laboral</h3>
+            </div>
             <div>
                 <h4>Responsable de Comunicación Institucional</h4>
                 <h5>Centro Comercial e Industrial de Rafaela y la Región. Mayo 2021. Presente.</h5>
@@ -58,7 +89,10 @@
             </div>
         </section>
         <section>
-            <h3>Estudios</h3>
+            <div class="encabezado-items-cv">
+                <img class="icono-cv" src="../assets/libro.svg" alt="Libro">
+                <h3>Estudios</h3>
+            </div>
             <div>
                 <h4>Curso de Introducción a UX</h4>
                 <h5>Educación IT.</h5>
@@ -103,7 +137,10 @@
             </div>
         </section>
         <section>
-            <h3>Capacitaciones</h3>
+            <div class="encabezado-items-cv">
+                <img class="icono-cv" src="../assets/computadora.svg" alt="Persona en una computadora">
+                <h3>Capacitaciones</h3>
+            </div>
             <div>
                 <p>Desde siempre, me interesó la posibilidad de enriquecer mi formación académica con diversas lecturas y con la participación en cursos, talleres y seminarios, en diferentes áreas del conocimiento:</p> 
                 <ul>
@@ -116,7 +153,10 @@
             </div>
         </section>
         <section>
-            <h3>Competencias</h3>
+            <div class="encabezado-items-cv">
+                <img class="icono-cv" src="../assets/engranaje.svg" alt="Engranaje con lamparita">
+                <h3>Competencias</h3>
+            </div>
             <div>
                 <h4>Redes sociales</h4>
                 <h5>Facebook, Twitter, Instagram, LinkedIn.</h5>
@@ -148,7 +188,10 @@
             </div>
         </section>
         <section>
-            <h3>Idiomas</h3>
+            <div class="encabezado-items-cv">
+                <img class="icono-cv" src="../assets/dialogo.svg" alt="Diálogo en idiomas diferentes">
+                <h3>Idiomas</h3>
+            </div>
             <div>
                 <h4>Inglés</h4>
                 <p>Nivel avanzado.</p>
@@ -162,7 +205,9 @@
         </section>
     </main>
     <footer>
-
+        <div>
+            <small>Copyright © 2025</small>
+        </div>        
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>

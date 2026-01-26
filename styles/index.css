@@ -18,6 +18,30 @@
     margin: 1rem;
 }
 
+.seccion-tarjetas {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+@keyframes aumentar {
+
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.025);
+  }
+}
+
+.tarjeta {
+  transition: transform 0.3s ease;
+}
+
+.tarjeta:hover {
+  animation: aumentar 0.6s ease forwards;
+}
+
 /* MOBILE */
 
 .presentacion {
@@ -45,7 +69,3 @@
 }
 }
 
-.seccion-tarjetas {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}

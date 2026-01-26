@@ -1,0 +1,23 @@
+h2, section {
+    margin: 2rem;
+}
+
+.encabezado-items-cv {
+    display: flex;  
+    align-items: center;
+    margin-bottom: 0.8rem;
+}
+
+h3 {
+    margin: 0;
+}
+
+.icono-cv {
+    width: 35px;
+    margin-right: 0.5rem;
+}
+
+ul {
+    list-style-type: circle;
+    padding-left: 1rem;
+}
