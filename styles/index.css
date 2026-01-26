@@ -18,6 +18,33 @@
     margin: 1rem;
 }
 
+/* MOBILE */
+
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-presentacion {
+    text-align: center;
+}
+
+/* TABLET y DESKTOP */
+
+@media (min-width: 768px) {
+    .presentacion {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }    
+
+    .texto-presentacion {
+    text-align: left;
+}
+}
+
 .seccion-tarjetas {
     margin-top: 1rem;
     margin-bottom: 1rem;

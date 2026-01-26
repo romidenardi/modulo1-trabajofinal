@@ -12,20 +12,50 @@
 <body>
 
     <header>
-
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid d-flex flex-column flex-lg-row align-items-center position-relative">
+                <h1 class="mb-0 w-100 w-lg-auto text-center text-lg-start"><a class="navbar-brand  d-block titulo" href="../index.html">Romina Denardi</a></h1>
+                    <span class="navbar-text d-block d-lg-none text-center subtitulo">Portfolio</span>
+                    <span class="navbar-text position-absolute top-50 start-50 translate-middle d-none d-lg-block subtitulo">Portfolio</span>           
+                <button class="navbar-toggler d-lg-none mx-auto boton-navegacion" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link link-menu" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-menu" href="../pages/cv.html">CV</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-menu" href="https://www.linkedin.com/in/rominadenardi/" target="_blank">LinkedIn</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-menu" href="https://github.com/romidenardi" target="_blank">GitHub</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-menu" href="../pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
-    <main>
-        <section>
+    <main class="main-contacto">
+        <div class="titulo-contacto">
             <h2>Contacto</h2>
-            <form>
+        </div>
+        <section class="seccion-contacto">
+            <form class="formulario">
                 <fieldset>
                     <legend>Completá tus datos.</legend>
                     <label for="name">Nombre y apellido</label>
                     <input type="text" id="name" name="name" required placeholder="Juan Pérez"><br>
                     <label for="email">Correo electrónico</label>
                     <input type="email" id="email" name="email" required placeholder="miemail@miemail.com"><br>
-                    <label for="comments">Consulta</label>
-                    <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Tu consulta aquí"></textarea>
+                    <label for="comments">Consulta</label><br>
+                    <textarea id="comments" name="comments" rows="4" cols="70" required placeholder="Tu consulta aquí"></textarea>
                 </fieldset>
                 <fieldset>
                     <legend>Revisá y enviá el formulario.</legend>
@@ -34,41 +64,41 @@
                 </fieldset>
             </form>
         </section>
-        <aside>
-            <article>
+        <aside class="aside-contacto">
+            <article class="bloque-redes">
                 <h3>Social</h3>
                 <ul>
                     <li>
-                        <img src="../assets/linkedin.svg" alt="LinkedIn">
+                        <img class="icono-aside" src="../assets/linkedin.svg" alt="LinkedIn">
                         <a href="https://www.linkedin.com/in/rominadenardi/" target="_blank">LinkedIn</a>
                     </li>
                     <li>
-                        <img src="../assets/github.svg" alt="GitHub">
+                        <img class="icono-aside" src="../assets/github.svg" alt="GitHub">
                         <a href="https://github.com/romidenardi" target="_blank">GitHub</a>
                     </li>
                     <li>
-                        <img src="../assets/facebook.svg" alt="Facebook">
+                        <img class="icono-aside" src="../assets/facebook.svg" alt="Facebook">
                         <a href="https://www.facebook.com/romidenardi.rafaela/" target="_blank">Facebook</a>
                     </li>
                     <li>
-                        <img src="../assets/instagram.svg" alt="Instagram">
+                        <img class="icono-aside" src="../assets/instagram.svg" alt="Instagram">
                         <a href="https://www.instagram.com/romidenardi/" target="_blank">Instagram</a>
                     </li>
                     <li>
-                        <img src="../assets/x.svg" alt="X">
+                        <img class="icono-aside" src="../assets/x.svg" alt="X">
                         <a href="https://x.com/rominadenardi" target="_blank">X</a>
                     </li>
                 </ul>
             </article>
-            <article>
+            <article class="bloque-datos">
                 <h3>Datos</h3>
                 <ul>
                     <li>
-                        <img src="../assets/email.svg" alt="Email">
+                        <img class="icono-aside" src="../assets/email.svg" alt="Email">
                         <a href="mailto:rominadenardi@gmail.com" target="_blank">rominadenardi@gmail.com</a>
                     </li>
                     <li>
-                        <img src="../assets/whatsapp.svg" alt="WhatsApp">
+                        <img class="icono-aside" src="../assets/whatsapp.svg" alt="WhatsApp">
                         <a href="https://api.whatsapp.com/send?phone=5493492606939" target="_blank">+54 9 3492 606939</a>
                     </li>
                 </ul>
@@ -76,7 +106,9 @@
         </aside>
     </main>    
     <footer>
-
+        <div>
+            <small>Copyright © 2025</small>
+        </div>        
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
