@@ -39,15 +39,23 @@ button {
 
 .icono-aside {
     width: 15px;
-    fill: #4b1c71;
 }
-
 
 /* MOBILE */
 
 .aside-contacto {
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+
+.div-botones-formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.boton-resetear, .boton-enviar {
+    width: 100%;
 }
 
 /* TABLET y DESKTOP */
@@ -76,5 +84,11 @@ button {
         padding: 0;
         align-content: center;
     }
+
+    .div-botones-formulario {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    }   
 
 }
