@@ -91,4 +91,8 @@ button {
     gap: 0.5rem;
     }   
 
+    .boton-resetear, .boton-enviar {
+    width: max-content;
+    }    
+    
 }
