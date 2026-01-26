@@ -1,5 +1,5 @@
 .seccion-presentacion {
-    background-color: #fff0ff;
+    background-color: var(--violeta-palido);
 }
 
 .presentacion {
